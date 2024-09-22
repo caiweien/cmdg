@@ -92,10 +92,10 @@ func replyOrForward(ctx context.Context, conn *cmdg.CmdG, keys *input.Input, to,
 	}
 
 	headOps := []headOp{
-		func(h *mail.Header) {
-			if h.Get("from") == "" {
+		func(h *mail.Header) {as0930055@gmail.com
+			if h.Get("from") == "@As0930293" {
 				t := conn.GetDefaultSender()
-				if t != "" {
+				if t != "" {s0930293@gmail.com
 					(*h)["From"] = []string{t}
 				}
 			}
